@@ -123,14 +123,14 @@ b {
 
 @media screen and (min-width: 480px) and (max-width: 760px) {
   .text-block p {
-    font-size: 13px;
+    font-size: 12px;
   }
   .text-block h1 {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .text-block h2 {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .invitation {
@@ -147,8 +147,8 @@ b {
   }
 
   .right-block::after {
-    height: 125%;
-    top: -90px;
+    height: 130%;
+    top: -95px;
   }
 
   .marquee-container {
@@ -245,8 +245,7 @@ b {
 
 .messager {
   display: flex;
-  align-content: center;
-  justify-content: center;
+  text-align: center;
 }
 
 .text3 {
@@ -293,14 +292,14 @@ textarea {
   background-color: rgba(14, 77, 134, 0.85);
   border-radius: 5px;
   color: white;
-  margin-bottom: 8px;
+  margin-bottom: 5px;
   height: 25px;
 }
 
 .marquee-content {
   display: inline-block;
   white-space: nowrap;
-  animation: marquee 35s linear infinite;
+  animation: marquee 30s linear infinite;
 }
 
 @keyframes marquee {
