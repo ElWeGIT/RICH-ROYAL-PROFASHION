@@ -87,6 +87,7 @@
 }
 
 .invitation {
+  margin-top: 15px;
   margin-bottom: 40px;
 }
 
@@ -98,7 +99,8 @@ hr {
 }
 
 span img {
-  margin-top: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 b {
@@ -274,6 +276,7 @@ input[type="submit"] {
 }
 
 /* Устанавливаем ширину элементов формы на 100% */
+a,
 form,
 label,
 input,
